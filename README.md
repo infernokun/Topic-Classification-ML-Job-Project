@@ -1,6 +1,6 @@
 # Topic-Classification-ML-Job-Project
 
-# #Topic Classification
+# # Topic Classification
 
    For this project, I used Python and various libraries to achieve the goal of classifying sets of data based on existing classified samples. The main libraries used are csv (for handling csv read and write operations), numpy (for better data visualization and increased helper functions compared to using a regular list of data), sklearn (for the machine learning tools and algorithms), and tkinter (for the graphic user interface). 
   
