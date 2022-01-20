@@ -48,20 +48,17 @@ subjects = ["No Substantive Higher Education Information",
 def generalizeUncodedData(uncodedData_data, uncodedData_titleText):
 
     data = []
-    count = 0
 
     # for all the data rows
-    for i in uncodedData_data:
+    for idx in range(len(uncodedData_data)):
         # grab a row
-        row = uncodedData_data[count]
+        row = uncodedData_data[idx]
 
         # append the title in front of the text
         fullText = row[uncodedData_titleText[0]] + \
             " " + row[uncodedData_titleText[1]]
 
         data.append(fullText)
-
-        count = count + 1
 
     dataset = {}
     dataset['data'] = np.array(data)
@@ -165,8 +162,6 @@ def fileCheck(p1, p2, p3):
 
 
 def getTrainingSet(filename):
-
-    count = 0
 
     # creates a data list which is a list of the attribues
     # the answers list is the categorized answer
