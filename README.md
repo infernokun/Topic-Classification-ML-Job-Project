@@ -1,7 +1,8 @@
 # Topic-Classification-ML-Job-Project
 # 70% Train - 30% Test Results
 
-```                                           precision    recall  f1-score   support
+```
+                                              precision    recall  f1-score   support
 
 No Substantive Higher Education Information       0.93      0.87      0.90       181
                                   Academics       0.78      0.73      0.75        44
@@ -36,4 +37,5 @@ No Substantive Higher Education Information       0.93      0.87      0.90      
 
                                    accuracy                           0.91      3030
                                   macro avg       0.86      0.83      0.84      3030
-                               weighted avg       0.91      0.91      0.91      3030```
+                               weighted avg       0.91      0.91      0.91      3030
+```
